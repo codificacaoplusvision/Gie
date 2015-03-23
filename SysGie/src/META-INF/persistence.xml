@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="SysGie">
+		<class>br.com.plusvision.sysgie.dao.CadProva</class>
+		<class>br.com.plusvision.sysgie.dao.Chamada</class>
+		<class>br.com.plusvision.sysgie.dao.Curso</class>
+		<class>br.com.plusvision.sysgie.dao.DadosUnico</class>
+		<class>br.com.plusvision.sysgie.dao.Disciplina</class>
+		<class>br.com.plusvision.sysgie.dao.Disciplinaprofessor</class>
+		<class>br.com.plusvision.sysgie.dao.Ementa</class>
+		<class>br.com.plusvision.sysgie.dao.Escolaridade</class>
+		<class>br.com.plusvision.sysgie.dao.FinalizarNota</class>
+		<class>br.com.plusvision.sysgie.dao.Hierarquia</class>
+		<class>br.com.plusvision.sysgie.dao.Instituicao</class>
+		<class>br.com.plusvision.sysgie.dao.IpRede</class>
+		<class>br.com.plusvision.sysgie.dao.Mensagen</class>
+		<class>br.com.plusvision.sysgie.dao.Nota</class>
+		<class>br.com.plusvision.sysgie.dao.Observacoe</class>
+		<class>br.com.plusvision.sysgie.dao.Status</class>
+		<class>br.com.plusvision.sysgie.dao.Turma</class>
+		<class>br.com.plusvision.sysgie.dao.User</class>
+	</persistence-unit>
+</persistence>
